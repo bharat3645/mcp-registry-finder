@@ -1,0 +1,34 @@
+{
+  "name": "mcp-registry-finder",
+  "version": "0.1.0",
+  "description": "MCP server that searches the official Model Context Protocol registry from inside your agent session — find, inspect, and get install commands for published MCP servers without leaving the chat.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "mcp-registry-finder": "src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mcp-server",
+    "ai-agents",
+    "agent-tooling",
+    "registry"
+  ],
+  "author": "Bharat Singh Parihar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bharat3645/mcp-registry-finder.git"
+  },
+  "homepage": "https://github.com/bharat3645/mcp-registry-finder",
+  "dependencies": {},
+  "devDependencies": {}
+}
